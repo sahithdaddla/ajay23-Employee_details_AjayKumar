@@ -15,7 +15,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://51.21.167.155:3000', // Login Server
-    'http://51.21.167.155:3001', // Employee Server
+    'http://51.21.167.155:3055', // Employee Server
     'http://51.21.167.155:5500', // Live Server (Default)
     'http://127.0.0.1:5500', // Live Server (IP)
     'http://51.21.167.155:5501'  // Live Server (Alternate)
