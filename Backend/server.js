@@ -57,9 +57,9 @@ const upload = multer({
 // PostgreSQL connection
 const pool = new Pool({
   user: process.env.DB_USER || 'postgres',
-  host: process.env.DB_HOST || '51.21.167.155',
+  host: process.env.DB_HOST || 'postgres',
   database: process.env.DB_NAME || 'auth_db',
-  password: process.env.DB_PASSWORD || 'password@12345',
+  password: process.env.DB_PASSWORD || 'admin123',
   port: process.env.DB_PORT || 5432,
 });
 
