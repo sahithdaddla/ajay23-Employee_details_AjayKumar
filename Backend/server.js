@@ -18,7 +18,7 @@ app.use(cors({
     'http://13.49.68.57:3055', // Employee Server
     'http://13.49.68.57:5500', // Live Server (Default)
     'http://127.0.0.1:5500', // Live Server (IP)
-    'http://13.49.68.57:5501'  // Live Server (Alternate)
+    'http://13.49.68.57:8313'  // Live Server (Alternate)
   ]
 }));
 app.use(express.json());
