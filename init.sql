@@ -1,7 +1,5 @@
-
-
-
-CREATE TABLE employees (
+-- Existing employees table
+CREATE TABLE IF NOT EXISTS employees (
     id VARCHAR(7) PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     role VARCHAR(40) NOT NULL,
@@ -16,4 +14,14 @@ CREATE TABLE employees (
     achievement TEXT NOT NULL,
     profile_image VARCHAR(255)
 );
+
+-- New users table (required by backend)
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    profile_image VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 
