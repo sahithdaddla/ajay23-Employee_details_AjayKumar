@@ -23,8 +23,3 @@ CREATE TABLE IF NOT EXISTS users (
     profile_image VARCHAR(255),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-<<<<<<< HEAD
-=======
-
-
->>>>>>> a6b7877641381e26352fe72180a33909230f0ede
