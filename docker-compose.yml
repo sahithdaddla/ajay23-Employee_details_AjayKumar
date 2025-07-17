@@ -3,7 +3,7 @@ version: "3.9"
 services:
   postgres:
     image: postgres:14
-    container_name: employee_pg
+    container_name: employee23_pg
     ports:
       - "5485:5432"
     environment:
